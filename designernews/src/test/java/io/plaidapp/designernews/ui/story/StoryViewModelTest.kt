@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Google, Inc.
+ * Copyright 2018 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,18 +31,20 @@ import io.plaidapp.designernews.flattendCommentsWithReplies
 import io.plaidapp.designernews.reply1
 import io.plaidapp.test.shared.getOrAwaitValue
 import io.plaidapp.test.shared.provideFakeCoroutinesDispatcherProvider
+import java.io.IOException
+import java.util.Date
+import java.util.GregorianCalendar
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Rule
 import org.junit.Test
-import java.io.IOException
-import java.util.Date
-import java.util.GregorianCalendar
 
 /**
  * Tests for [StoryViewModel] mocking all the dependencies.
  */
+@ExperimentalCoroutinesApi
 class StoryViewModelTest {
 
     // Executes tasks in the Architecture Components in the same thread

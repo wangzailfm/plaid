@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Google, Inc.
+ * Copyright 2019 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,8 +41,8 @@ import io.plaidapp.core.ui.filter.SourcesHighlightUiModel
 import io.plaidapp.core.ui.filter.SourcesUiModel
 import io.plaidapp.core.ui.getPlaidItemsForDisplay
 import io.plaidapp.core.util.event.Event
-import kotlinx.coroutines.launch
 import java.util.Collections
+import kotlinx.coroutines.launch
 
 /**
  * ViewModel for [HomeActivity].

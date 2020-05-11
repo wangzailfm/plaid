@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Google, Inc.
+ * Copyright 2018 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,16 +28,18 @@ import io.plaidapp.core.designernews.data.login.model.LoggedInUser
 import io.plaidapp.core.util.event.Event
 import io.plaidapp.test.shared.getOrAwaitValue
 import io.plaidapp.test.shared.provideFakeCoroutinesDispatcherProvider
+import java.io.IOException
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Rule
 import org.junit.Test
-import java.io.IOException
 
 /**
  * Class that tests [LoginViewModel] by mocking all the dependencies.
  */
+@ExperimentalCoroutinesApi
 class LoginViewModelTest {
 
     // Executes tasks in the Architecture Components in the same thread

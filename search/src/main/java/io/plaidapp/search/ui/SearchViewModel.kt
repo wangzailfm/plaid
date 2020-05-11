@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Google, Inc.
+ * Copyright 2018 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,8 +27,8 @@ import io.plaidapp.core.data.CoroutinesDispatcherProvider
 import io.plaidapp.core.data.PlaidItem
 import io.plaidapp.core.feed.FeedProgressUiModel
 import io.plaidapp.core.feed.FeedUiModel
-import io.plaidapp.search.domain.SearchDataSourceFactoriesRegistry
 import io.plaidapp.search.domain.LoadSearchDataUseCase
+import io.plaidapp.search.domain.SearchDataSourceFactoriesRegistry
 import kotlinx.coroutines.launch
 
 /**

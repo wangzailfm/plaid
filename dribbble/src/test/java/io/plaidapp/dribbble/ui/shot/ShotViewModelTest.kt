@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Google, Inc.
+ * Copyright 2018 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,8 +33,8 @@ import io.plaidapp.test.shared.getOrAwaitValue
 import io.plaidapp.test.shared.provideFakeCoroutinesDispatcherProvider
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.test.runBlockingTest
 import kotlinx.coroutines.test.TestCoroutineDispatcher
+import kotlinx.coroutines.test.runBlockingTest
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull

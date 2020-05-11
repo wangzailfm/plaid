@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Google, Inc.
+ * Copyright 2018 Google LLC.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 package io.plaidapp.about.ui.model
 
 import `in`.uncod.android.bypass.Markdown
-import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import android.content.res.ColorStateList
 import android.content.res.Resources
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.anyOrNull
 import com.nhaarman.mockitokotlin2.doReturn
